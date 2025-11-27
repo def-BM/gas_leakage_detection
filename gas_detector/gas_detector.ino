@@ -1,15 +1,15 @@
 // Blynk Credentials
-#define BLYNK_TEMPLATE_ID "TMPL32mJFOODr"
-#define BLYNK_TEMPLATE_NAME "Gas Leakage Detector"
-#define BLYNK_AUTH_TOKEN "rDdyPlwzwb54ib4PJKI-Po09soCdI_sW"
+// #define BLYNK_TEMPLATE_ID "your_template_id_here"
+// #define BLYNK_TEMPLATE_NAME "Gas Leakage Detector"
+// #define BLYNK_AUTH_TOKEN "your_blynk_token_here"
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
 // WiFi Credentials
-char ssid[] = "vivo2029";   // Replace with your WiFi SSID
-char pass[] = "11011101";   // Replace with your WiFi Password"
+// char ssid[] = "your_wifi_name";
+// char pass[] = "your_wifi_password";
 
 // Hardware Pins
 #define GAS_SENSOR_PIN 14   // MQ-2 Digital Output pin (ESP-32 GPIO 14)
